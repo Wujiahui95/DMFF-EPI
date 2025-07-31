@@ -54,7 +54,7 @@ Run the training script with customizable arguments:
   - python train_torch.py --cell_line K562 --epochs 30 --batch_size 16
 
 - Arguments:
-  - cell_line: Target cell line (default: K562).
+  - cell_line: Target cell line .
 
   - temperature: Contrastive loss temperature (default: 0.5).
 
