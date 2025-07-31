@@ -120,7 +120,7 @@ name = names[5]
 
 # 数据路径和加载
 Data_dir = f'../EPIVAN-master/Data/rawData/{name}/'
-Data_dirnpz = f'../EPIVAN-master/'
+Data_dirnpz = f'../EPIVAN-master/Data/'
 train = np.load(Data_dir + f'{name}_train.npz')
 test = np.load(Data_dir + f'{name}_test.npz')
 X_en_tra, X_pr_tra, y_tra = train['X_en_tra'], train['X_pr_tra'], train['y_tra']
