@@ -69,7 +69,7 @@ Run the training script with customizable arguments:
 ### 3. Evaluation
 Evaluate the model on test data:
 ```python
-python test_torch.py --model_path ./model/specificModel/K562Model29.pth
+python test_torch.py --model_path ./model/specificModel/K562Model.pth
 ```
   - Outputs:
 
