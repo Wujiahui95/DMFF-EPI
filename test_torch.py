@@ -35,7 +35,7 @@ names = ['GM12878', 'HUVEC', 'HeLa', 'IMR90', 'K562', 'NHEK']
 for name in names:
     # 加载测试数据
     Data_dir = f'../EPIVAN-master/Data/rawData/{name}/'
-    Data_dirnpz = f'../EPIVAN-master/'
+    Data_dirnpz = f'../EPIVAN-master/Data'
     test = np.load(Data_dir + f'{name}_test.npz')
     
     vector_en_tes = np.load(f'X_en_tes_{name}.npz')['frequencies']
