@@ -1,5 +1,7 @@
 # DMFF-EPI: Dual-Modality Feature Fusion Network with Contrastive Learning for Enhancer-Promoter Interaction Prediction
 
+For any questions or further information, please reach out to Haitao Fu (Email: fuhaitao@hubu.edu.cn, https://ai.hubu.edu.cn/info/1025/2041.htm).
+
 ## Overview
 DMFF-EPI is a deep learning framework designed to predict enhancer-promoter interactions (EPIs) by integrating **dynamic sequence features** (captured via CNN-BiGRU) and **static statistical features** (processed via k-mer frequency MLP). The core innovation is a **contrastive learning regularizer** that aligns complementary biological representations, significantly enhancing prediction accuracy and cross-cell-line generalization.
 
